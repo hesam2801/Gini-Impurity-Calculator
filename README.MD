@@ -26,10 +26,8 @@ This project focuses on identifying the best split point for a dataset by minimi
    - For **continuous features**, it evaluates potential split points between successive values.
 
 3. **Calculate Gini Impurity**: The Gini impurity is computed for each potential split:
-   $$ 
-   Gini = 1 - \sum_{i=1}^{n} p_i^2
-   $$
-   where $(p_i)$ is the proportion of observations belonging to class $(i)$
+\[ G = 1 - \sum (p_i^2) \]
+   where \( p_i \) is the proportion of observations belonging to class  \( i \).
 
 4. **Weighted Average Impurity**: For each split, the script calculates a weighted average of the impurities for the two resulting subsets (true side and false side).
 
