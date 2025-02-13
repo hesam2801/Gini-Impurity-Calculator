@@ -25,7 +25,7 @@ This project focuses on identifying the best split point for a dataset by minimi
    - For **discrete features**, the script calculates impurity based on unique values.
    - For **continuous features**, it evaluates potential split points between successive values.
 
-3. **Calculate Gini Impurity**: The Gini impurity is computed for each potential split:
+3. **Calculate Gini Impurity**: The Gini impurity is computed for each potential split:\
 ![alt text](image.png)\
 where  
 ![alt text](image-1.png)\
